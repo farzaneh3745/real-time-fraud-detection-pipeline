@@ -1,3 +1,12 @@
+> **My contribution (Farzaneh Barzegar – Team Lead & Data Ingestion)**
+> This is a forked copy of our 4-person university team project.
+> I led the team and owned the data-ingestion layer:
+> - Set up a Google Cloud VM and deployed Kafka and Zookeeper with Docker Compose
+> - Wrote the Python producer [`producer/csv_to_kafka.py`](producer/csv_to_kafka.py) (pandas, kafka-python), which validates required columns, removes empty rows and streams 50,000 transaction records as JSON events to the Kafka topic `raw-transactions`
+>
+> Original repository: [daleogont/Fraud-detection](https://github.com/daleogont/Fraud-detection)
+---
+
 # Real-Time Financial Fraud Detection System
 
 A **complete, working** ML data engineering pipeline for fraud detection. Built for learning.
